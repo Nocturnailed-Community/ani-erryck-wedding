@@ -1,11 +1,11 @@
 <template>
   <InvitationHeader/>
-  <!-- <InvitationCouple/>
-  <InvitationEvent/>
+  <InvitationCouple/>
+  <!-- <InvitationEvent/> -->
   <InvitationGallery/>
   <InvitationGift/>
   <InvitationWish/>
-  <InvitationFooter/> -->
+  <InvitationFooter/>
 </template>
 
 <script lang="ts">

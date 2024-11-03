@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="contain">
     <div class="invitation-header">
       <div
         class="background"
@@ -12,7 +12,9 @@
         <div class="mb-5">
           <p>Hi,</p>
           <h4 class="guest-name">{{ name }}</h4>
-          <p class="greeting-guest">We invite you to celebrate our wedding.</p>
+          <p class="greeting-guest">
+            Kami mengundang Anda untuk merayakan pernikahan kami.
+          </p>
         </div>
         <div class="mb-5">
           <p style="font-weight: bold">The Wedding of</p>
@@ -181,7 +183,7 @@ h5 {
   margin-right: 10px;
 }
 
-.container {
+.contain {
   color: white;
   background-color: grey;
   width: 100vw;
