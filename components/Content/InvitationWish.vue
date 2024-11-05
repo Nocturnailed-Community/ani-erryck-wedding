@@ -26,15 +26,24 @@
               required
             ></textarea>
           </div>
-          <button type="submit" class="btn btn-primary btn-block">Kirim</button>
+          <button type="submit" class="btn btn-outline-light btn-block" style="width: 50%;" >Kirim</button>
         </form>
 
         <!-- Display List of Wishes -->
-        <div v-if="wishes.length" class="mb-4">
-          <div v-for="wish in wishes" :key="wish.id" class="card mb-3">
+        <div v-if="wishes.length" class="comment-section">
+          <!-- <div v-for="wish in wishes" :key="wish.id" class="card mb-3">
             <div class="card-body">
               <h5 class="card-title text-dark">{{ wish.name }}</h5>
               <p class="card-text text-muted">{{ wish.wish }}</p>
+            </div>
+          </div> -->
+          <div v-for="wish in wishes" :key="wish.id" class="comment">
+            <div class="profile-pic">
+              <i class="bi bi-chat-left-quote"></i>
+            </div>
+            <div class="comment-content">
+              <p class="comment-name" style="margin-bottom: 0%;" >{{ wish.name }}</p>
+              <p class="comment-text">{{ wish.wish }}</p>
             </div>
           </div>
         </div>
@@ -147,6 +156,61 @@ const submitWish = async () => {
 .card-body {
   padding: 50px;
 }
+
+.comment-section {
+  /* max-width: 500px; */
+  /* margin: 0 auto; */
+  padding: 10px;
+}
+
+.comment {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color:transparent;
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: transparent; /* Warna latar belakang untuk ikon */
+  color: white; /* Warna ikon */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+
+.profile-pic i {
+  font-size: 30px; /* Ukuran ikon */
+}
+
+.comment-content {
+  /* max-width: 400px; */
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+.comment-name {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+  color: white;
+}
+
+.comment-text {
+  font-size: 13px;
+  color: white;
+  margin: 5px 0 0;
+}
+
+
+
 @media (max-width: 768px) {
   .contain {
     padding: 10px;
