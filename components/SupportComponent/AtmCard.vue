@@ -1,7 +1,7 @@
 <template>
   <div class="atm-card">
     <div class="atm-card-header">
-        <img :src="logoUrl" alt="Bank Logo" class="atm-card-logo" :style="{ width: logoWidth }" />
+        <img :src="logoUrl" alt="Bank Logo" class="atm-card-logo" :style="{ width: logoWidth }" loading="lazy" />
     </div>
     <div class="atm-card-content">
       <p class="label">NOMOR REKENING</p>

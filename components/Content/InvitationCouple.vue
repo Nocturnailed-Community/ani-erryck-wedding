@@ -37,7 +37,7 @@
           ٱلسَّلَامُ عَلَيْكُمْ وَرَحْمَةُ ٱللَّٰهِ وَبَرَكَاتُهُ
         </h1>
         <!-- <h2 class="mb-5">(gambar cincin)</h2> -->
-        <img class="ring-img mb-3" src="~/assets/images/ring.png" alt="" />
+        <img class="ring-img mb-3" src="~/assets/images/ring.png" alt="" loading="lazy" />
         <p style="font-style: italic" class="mb-5">
           Dengan memohon rahmat dan ridho Allah SWT, Kami bermaksud mengundang
           Bapak/Ibu/Saudara/i untuk hadir dalam acara pernikahan putra dan putri
@@ -88,7 +88,7 @@
             </div>
           </div>
         </div>
-        <img class="ring-img mb-4" src="~/assets/images/tulips.png" alt="" />
+        <img class="ring-img mb-4" src="~/assets/images/tulips.png" alt="" loading="lazy" />
         <div class="mb-3">
           <h5>BERTEMPAT DI</h5>
           <div class="hr-with-text">

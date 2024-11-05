@@ -2,7 +2,7 @@
   <div class="contain">
     <div class="text-center">
       <h3 class="couple">Terima Kasih</h3>
-      <img class="ring-img mb-4" src="~/assets/images/tulips.png" alt="" />
+      <img class="ring-img mb-4" src="~/assets/images/tulips.png" alt="" loading="lazy" />
       <p class="mb-3" style="font-style: italic">
         Merupakan suatu kebahagiaan dan kehormatan bagi kami, apabila
         Bapak/Ibu/Saudara/i, berkenan hadir untuk memberikan doa restu kepada
