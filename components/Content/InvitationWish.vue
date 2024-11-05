@@ -48,7 +48,7 @@
           </div>
         </div>
         <p v-else class="mb-4 text-white text-center">
-          Belum ada ucapan. Jadilah orang pertama yang meninggalkannya!
+          Belum ada ucapan. Jadilah orang pertama yang mengucapkannya!
         </p>
 
         <!-- Pagination Controls -->
